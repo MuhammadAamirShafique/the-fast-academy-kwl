@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fast Academy Khanewal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #004d00;
+    }
+    header {
+      background-color: #004d00;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-height: 100px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background-color: #e6ffe6;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    nav a {
+      color: #004d00;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 10px;
+    }
+    nav a:hover {
+      background-color: #c2f0c2;
+      border-radius: 5px;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .courses, .contact {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 400px;
+      margin: auto;
+    }
+    input[type="text"], input[type="password"] {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      background-color: #004d00;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #006600;
+    }
+    footer {
+      background-color: #004d00;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+      header img {
+        max-height: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#top">
+      <img src="logo.jpeg" alt="Fast Academy Logo">
+    </a>
+    <h1>Fast Academy Khanewal</h1>
+  </header>
+
+  <nav>
+    <a href="#9jB">9th junior Boys</a>
+    <a href="#9jG">9th junior Girls</a>
+    <a href="#9B">9th Boys</a>
+    <a href="#9G">9th Girls</a>
+    <a href="#10B">10th Boys</a>
+    <a href="#10G">10th Girls</a>
+    <a href="#11B">11th Boys</a>
+    <a href="#11G">11th Girls</a>
+    <a href="#12B">12th Boys</a>
+    <a href="#12G">12th Girls</a>
+    <a href="#notes">Download Notes</a>
+    <a href="#login">Student Login</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At The Fast Academy Khanewal, we are committed to empowering students from classes 9th to 12th with high-quality education, personalized guidance, and a strong academic foundation. Established with the vision of shaping future leaders, our academy provides a focused and disciplined learning environment designed to help students excel in board exams and beyond.</p>
+    <p>We believe that every student has the potential to succeed, and our mission is to unlock that potential through expert instruction, comprehensive curriculum coverage, regular assessments, and individual attention. Our team of qualified and experienced teachers is passionate about teaching and dedicated to the success of each learner.</p>
+    <p>Whether you are preparing for matriculation or intermediate exams, The Fast Academy Khanewal is your trusted partner in academic excellence. We don’t just prepare students for exams – we prepare them for a brighter future.</p>
+  </section>
+
+  <section id="courses">
+    <h2>Courses</h2>
+    <div class="courses">
+      <div id="9jB">9th junior Boys</div>
+      <div id="9jG">9th junior Girls</div>
+      <div id="9B">9th Boys</div>
+      <div id="9G">9th Girls</div>
+      <div id="10B">10th Boys</div>
+      <div id="10G">10th Girls</div>
+      <div id="11B">11th Boys</div>
+      <div id="11G">11th Girls</div>
+      <div id="12B">12th Boys</div>
+      <div id="12G">12th Girls</div>
+    </div>
+  </section>
+
+  <section id="notes">
+    <h2>Download Notes</h2>
+    <p><a href="#" download>Download 9th Class Notes</a></p>
+    <p><a href="#" download>Download 10th Class Notes</a></p>
+    <p><a href="#" download>Download 11th Class Notes</a></p>
+    <p><a href="#" download>Download 12th Class Notes</a></p>
+  </section>
+
+  <section id="login">
+    <h2>Student Login</h2>
+    <form action="#" method="post">
+      <input type="text" placeholder="Student ID" required />
+      <input type="password" placeholder="Password" required />
+      <input type="submit" value="Login" />
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <div><strong>M Faisal Maqsood</strong><br />03047196670</div>
+      <div><strong>Aamir Shafique</strong><br />03067890500</div>
+      <div><strong>Hafiz Muhammad Talha Mehboobi</strong><br />03176634490</div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Fast Academy Khanewal. All rights reserved.
+  </footer>
+</body>
+</html>
